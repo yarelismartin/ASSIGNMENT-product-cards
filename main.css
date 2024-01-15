@@ -43,6 +43,7 @@ img{
   
 }
 
+
 .card-container>header{
   text-align: center;
   border: 1px dotted lightblue;
@@ -71,4 +72,12 @@ h3{
   margin-top: -15px;
   font-size: x-small;
   padding-left: 0px;
+}
+
+
+
+@media (max-width: 600px) {
+  .card-container {
+    flex: 1 46%;
+  }
 }
